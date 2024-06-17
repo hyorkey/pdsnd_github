@@ -151,13 +151,13 @@ def user_stats(df):
     """Displays statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
-    start_time = time.time()
+    begin_time = time.time()
 
     # TO DO: Display counts of user types
     user_types = df['User Type'].value_counts()
     print("These are the amounts of each user type:\n", user_types)
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % (time.time() - begin_time))
     print('-'*40)
 
 
@@ -168,8 +168,8 @@ def user_demigraphics(df):
     start_time = time.time()
 
     # TO DO: Display counts of gender
-    gender_types = df['Gender'].value_counts()
-    print("These are the amounts of each gender:\n", gender_types)
+    genders = df['Gender'].value_counts()
+    print("These are the amounts of each gender:\n", genders)
 
     # TO DO: Display earliest, most recent, and most common year of birth
     print("The earliest birth year is:", int(df['Birth Year'].min()), "\n")
