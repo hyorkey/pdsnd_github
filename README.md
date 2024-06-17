@@ -13,5 +13,5 @@ The bike share project displays statistics on the bike share usage based on user
 This project uses a python file: `bikeshare.py` and three data files: `chicago.csv`, `new_york_city.csv`, and `washington.csv`.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This work is entirely my own.
 
