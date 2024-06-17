@@ -7,7 +7,7 @@ Project file `bikeshare.py` created April 30, 2024. README.md file created June 
 Bike Share Project
 
 ### Description
-Describe what your project is about and what it does
+The bike share project displays statistics on the bike share usage based on user provided criteria. The program asks a user for input to filter the data by city, month and/or day and then displays the requested data.
 
 ### Files used
 Include the files used
