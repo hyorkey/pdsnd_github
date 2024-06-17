@@ -9,6 +9,9 @@ Bike Share Project
 ### Description
 The bike share project displays statistics on the bike share usage based on user provided criteria. The program asks a user for input to filter the data by city, month and/or day and then displays the requested data.
 
+### Software Requirements
+To run this project you will need the ability to run a python file.
+
 ### Files used
 This project uses a python file: `bikeshare.py` and three data files: `chicago.csv`, `new_york_city.csv`, and `washington.csv`.
 
